@@ -1,12 +1,34 @@
+/*Adding background image*/
+body{
+    background-image: url("Images/OwlPattern.jpg");
+}
+
 /* Change Navbar Brand background to teal*/
 .navbar-brand{
     background-color: teal;
 
 }
-
+/*Adding color and bold to the Navbar brand text */
 #brandText{
     color: white;
     font-weight: 700;
 }
+/*changing max width of default container to keep space on the right */
+.container{
+    max-width: 60%;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+/*Adding Spacing and text formatting for main title*/
+.container h1{
+    margin: 10px;
+    color: teal;
+}
 
-
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}
