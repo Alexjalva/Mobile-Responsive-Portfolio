@@ -1,0 +1,12 @@
+/* Change Navbar Brand background to teal*/
+.navbar-brand{
+    background-color: teal;
+
+}
+
+#brandText{
+    color: white;
+    font-weight: 700;
+}
+
+
