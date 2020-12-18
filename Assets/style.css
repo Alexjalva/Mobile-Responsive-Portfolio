@@ -18,21 +18,30 @@ body{
     background-color: white;
     margin-top: 140px;
     margin-left: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
 }
 /*Adding Spacing and text formatting for main title*/
 .container h1{
     margin: 10px;
     color: teal;
 }
+
+/* CSS FOR ABOUT ME*/
 /*Formatting for img in about me*/
 #aboutImg{
     margin-right: 20px;
     margin-bottom: 15px;
 }
+
+/*CSS FOR CONTACT PAGE*/
+
+
 /*Code for Footer, top border blue and grey background. Centered text.*/
 footer{
-    position: relative;
+    position: static;
+    bottom: 0px;
+    width: 100%;
   height: 35px;
   clear:both;
   text-align: center;
