@@ -25,10 +25,20 @@ body{
     margin: 10px;
     color: teal;
 }
-
+/*Formatting for img in about me*/
 #aboutImg{
     margin-right: 20px;
     margin-bottom: 15px;
+}
+/*Code for Footer, top border blue and grey background. Centered text.*/
+footer{
+    position: relative;
+  height: 35px;
+  clear:both;
+  text-align: center;
+  background-color: grey;
+  border-top: 5px solid teal;
+  color: teal;
 }
 
 @media only screen and (max-width: 768px) {
