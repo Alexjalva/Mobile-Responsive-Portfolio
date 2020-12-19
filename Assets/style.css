@@ -12,6 +12,7 @@ body{
     color: white;
     font-weight: 700;
 }
+
 /*changing max width of default container to keep space on the right */
 .container{
     max-width: 60%;
@@ -26,6 +27,13 @@ body{
     margin: 10px;
     color: teal;
 }
+/*Formatting for Title Container*/
+#titleRow{
+    border-bottom: solid 1px lightgray;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
 
 /* CSS FOR ABOUT ME*/
 /*Formatting for img in about me*/
@@ -34,8 +42,11 @@ body{
     margin-bottom: 15px;
 }
 
-/*CSS FOR CONTACT PAGE*/
-
+/*CSS FOR Portfolio PAGE*/
+.portfolioImg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /*Code for Footer, top border blue and grey background. Centered text.*/
 footer{
@@ -49,7 +60,7 @@ footer{
   border-top: 5px solid teal;
   color: teal;
 }
-
+/*Media Query - resizes to fit smaller screens, under 768 pixels*/
 @media only screen and (max-width: 768px) {
     .container{
         max-width: 90%;

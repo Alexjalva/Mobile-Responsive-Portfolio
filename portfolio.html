@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type= "text/css" href="Assets/style.css">
+</head>
+
+<body>
+    <!--Bootstrap responsive navbar. Re-aligned buttons to right side, kept brand on left. CSS styling to change brand colors and text.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <p class="navbar-brand" id="brandText" >Alex Alvarado</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <!--Changed this button to a paragraph so that it is not clickable since this is the current page. Span + class is for accessibility, for screen readers to not read the link.-->
+                    <p class="nav-link">Portfolio<span class="sr-only">(current)</span></p>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" >About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--main container, includes contact form. Set to 60% max-width in css-->
+    <main class="container float-left">
+        <!--Row for Page Title-->
+        <div id="titleRow" class="row">
+            <h1>Contact Alex Alvarado</h1>
+        </div>
+        <!--First row of images -->
+        <!--Code for 3 rows of images, split into two columns each, of 6 spaces. Bootstrap containers for responsiveness, with padding for spacing-->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid portfolioImg" src="Assets/Images/AvocadoHalf.jpg" height="350" width="350">
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid portfolioImg" src="Assets/Images/AvocadoLady.jpg" height="350" width="350">
+            </div>
+        </div>
+        <!--Second Row of images-->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid portfolioImg" src="Assets/Images/AvocadoDish.jpg" height="350" width="350">
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid portfolioImg" src="Assets/Images/AvocadoBreakfast.jpg" height="350" width="350">
+            </div>
+        </div>
+        <!-- Third row-->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid portfolioImg" src="Assets/Images/AvocadoSlices.jpg" height="350" width="350">
+            </div>
+        </div>
+    </main>
+    <footer>
+            <p>© Copyright</p>
+    </footer>
+</body>
+
+</html>
