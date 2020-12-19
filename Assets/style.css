@@ -41,6 +41,9 @@ body{
     margin-right: 20px;
     margin-bottom: 15px;
 }
+.socMediaIcon{
+    margin: 10px;
+}
 
 /*CSS FOR Portfolio PAGE*/
 .portfolioImg{
