@@ -23,25 +23,24 @@ Webpage can be loaded based off of html in main repository.
 
 The navbar has a brand on the left that is not clickable. The right side of the navbar, when expanded, will have three buttons. The button for the active page will not be clickable, the other two buttons will. 
 
-![NavBar Expanded Look](Assets/Images/NavBarExpanded.png)
-Format: ![NavBar Expanded Usage]
+![NavBar Expanded Look](Assets/Images/NavbarExpanded.png)
 
 The navbar will become compact on smaller screens and will instead have a burger menu where the links previously were. The burger menu can be clicked on to access the other links as seen below.
 
 ![NavBar Compact Look](Assets/Images/NavbarCompact.png)
-Format: ![NavBar Compact Look]
+
 
 ![NavBar Burger Menu](Assets/Images/NavbarBurgerMenu.png)
-Format: ![NavBar Burger Menu Usage]
+
 
 ###How to view the content
 The content will be viewable on each page, and will resize depending on screen size. See below for examples of page at different screen sizes. 
 
 ![Page Expanded](Assets/Images/PageLarge.png)
-Format: ![How the page looks at full screen size]
+
 
 ![Page Compacted](Assets/Images/PageCompact.png)
-Format: ![How the page looks at smaller screen sizes]
+
 
 ##Credits
 Original page was created by Alexander Alvarado
