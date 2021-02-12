@@ -49,6 +49,8 @@ body{
 .portfolioImg{
     padding-top: 10px;
     padding-bottom: 10px;
+    border: black solid;
+    margin-top: 10px;
 }
 
 /*Code for Footer, top border blue and grey background. Centered text.*/
